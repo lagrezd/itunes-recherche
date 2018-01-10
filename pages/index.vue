@@ -3,13 +3,15 @@
         <h1>Recherche sur iTunes</h1>
         <br>
 
-        <form action="" @submit.prevent="submit">
-            <input
+        <v-form action="" @submit.prevent="submit">
+            <v-text-field
                 type="text"
                 placeholder="Entrer nom de l'artiste"
                 v-model="search"
-                autofocus>
-        </form>
+                autofocus
+                required>
+            </v-text-field>
+        </v-form>
     </div>
 </template>
 

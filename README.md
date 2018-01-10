@@ -1,6 +1,13 @@
-# mon-itunes
+# iTunes recherche
 
 > Nuxt.js project
+
+Application pour utiliser :
+- Vue.js
+- Nuxt.js
+- Axios
+- iTunes API
+- Vuetify
 
 ## Build Setup
 
